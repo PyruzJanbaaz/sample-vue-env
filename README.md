@@ -1,4 +1,4 @@
-# sample-env
+# How to use env files in Vue 3
 In a web app, you will most likely have to access a backend API server through a URL. In a development environment - when you are working locally, this URL can be something like: http://localhost:8080/api. In a production environment - when the project has been deployed, this URL can be something like: https://example.com/api. Environment variables allow you to change this URL automatically, according to the current state of the project.
 
 With Vue.js, it is possible to use environment variables through files with the .env file extension. These files are responsible for storing information that is specific to the environment (“development”, “testing”, “production”, etc.).
