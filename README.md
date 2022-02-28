@@ -10,9 +10,11 @@ npm install
 ```
 
 ### Compiles and hot-reloads for development
+If you compile the application with development values:
 ```
 npm run serve
 ```
+This command will use the .env value and the console log will display: http://localhost/api.
 
 ### Compiles and minifies for production
 ```
