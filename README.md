@@ -14,17 +14,12 @@ If you compile the application with development values:
 ```
 npm run serve
 ```
-This command will use the .env value and the console log will display: http://localhost/api.
+This command will use the .env value and will display: http://localhost/api.
 
-### Compiles and minifies for production
+If you compile the application with development values:
 ```
-npm run build
+npm run serve -- --mode=production
 ```
+This command will use the .env.production value and will display: http://www.example.com/api.
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+By default, Vue CLI will support three modes: “development”, "test’, and “production”.
